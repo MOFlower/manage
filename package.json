@@ -3,9 +3,9 @@
   "version": "4.2.0",
   "private": true,
   "scripts": {
-    "dev": "npm run serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev": "npm run serve"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
+    "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   }
 }

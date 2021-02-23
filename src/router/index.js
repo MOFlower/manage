@@ -7,7 +7,11 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: '/dashboard'
+            redirect: '/main'
+        },
+        {
+            path: '/main',
+            component: () => import('../views/Introduction.vue'),
         },
         {
             path: '/',
